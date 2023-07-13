@@ -1,0 +1,73 @@
+body {
+    font-family: 'Sono', sans-serif;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 90vh;
+}
+
+.pricing-plan{
+    border: solid;
+    height: 310px;
+    width: 400px;
+    background-color: #DDE6ED;
+    position: relative;
+}
+
+.plan-title{
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: solid transparent;
+    background-color: #27374D;
+}
+
+.plan-price{
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-features{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 87%;
+    margin: 0;
+    padding: 0;
+}
+
+.plan-button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px;
+    width: 100px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    margin: 0;
+    left: 36%;
+}
+
+.card-list{
+    list-style: none;
+}
+
+/* Responsive side */
+@media (max-width: 768px) {
+    .pricing-container{
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+    }
+}
